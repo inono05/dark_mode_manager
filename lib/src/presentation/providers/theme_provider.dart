@@ -1,6 +1,7 @@
 import 'package:dark_mode_manager/src/domain/entities/theme_mode_entity.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flutter_riverpod/legacy.dart';
 
 import '../../domain/usecases/get_mode_usecase.dart';
 import '../../domain/usecases/providers/get_mode_usecase_provider.dart';
